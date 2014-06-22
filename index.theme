@@ -1,11 +1,5 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Albatross
-Comment=A smooth and soft theme
+Name=Gtk-Uguiss
+Comment=A smooth,soft and green theme
 Encoding=UTF-8
-
-[X-GNOME-Metatheme]
-GtkTheme=Albatross
-MetacityTheme=Albatross
-CursorTheme=DMZ-Black
-ButtonLayout=:minimize,maximize,close
