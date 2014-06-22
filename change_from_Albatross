@@ -23,7 +23,9 @@ Hue 209 deg -> 97 deg (-112 deg)
 (link_color) 4d75bf -> 3d48d9
 
 
-## todo (gtk3)
-ボタンのinset(?)
-スクロールバーの判定
+## todo (gtk2)
+
+- ダークテーマを反転
+- スクロールバーの判定
+
 
