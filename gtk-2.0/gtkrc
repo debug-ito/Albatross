@@ -251,6 +251,9 @@ style "metacity-frame"
 
 style "statusbar" { }
 style "comboboxentry" { }
+style "comboboxentry-label" {
+  text[PRELIGHT] = @selected_fg_color
+}
 style "hscale" = "scale" { }
 style "vscale" = "scale" { }
 style "hscrollbar" = "scrollbar" { }
@@ -481,7 +484,7 @@ widget "*.nautilus-extra-view-widget" style : highest "nautilus-location"
 ## 
 ## widget_class "*.<GtkComboBox>.<GtkCellView>" style "text-is-fg-color-workaround"
 
-widget_class "*.<GtkComboBox>.<GtkCellView>" style "default"
+widget_class "*.<GtkComboBox>.<GtkCellView>" style "comboboxentry-label"
 
 ## style "menuitem-text-is-fg-color-workaround" {
 ## 	text[NORMAL] = "#E6E6E6"
@@ -491,7 +494,7 @@ widget_class "*.<GtkComboBox>.<GtkCellView>" style "default"
 ## 	text[INSENSITIVE] = darker (@bg_color)
 ## }
 
-widget "*.gtk-combobox-popup-menu.*" style "default"
+widget "*.gtk-combobox-popup-menu.*" style "comboboxentry-label"
 
 ## style "fg-is-text-color-workaround" {
 ## 	fg[NORMAL] = @text_color
