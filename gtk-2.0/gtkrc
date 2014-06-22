@@ -117,19 +117,19 @@ style "wider" {
 	ythickness = 3
 }
 
-style "bright" {
-	bg[NORMAL] = @bg_color
-	bg[SELECTED] = shade(0.9, @selected_bg_color)
-	bg[PRELIGHT] = shade (0.5, @selected_bg_color)
-	bg[ACTIVE] = shade(0.5, @selected_bg_color)
-	bg[INSENSITIVE] = @bg_color
-	
-	fg[NORMAL] = @fg_color
-	fg[SELECTED] = @selected_fg_color
-	fg[PRELIGHT] = @selected_fg_color
-	fg[ACTIVE] = @selected_fg_color
-	fg[INSENSITIVE] = @fg_color
-}
+## style "bright" {
+## 	bg[NORMAL] = @bg_color
+## 	bg[SELECTED] = shade(0.9, @selected_bg_color)
+## 	bg[PRELIGHT] = shade (0.5, @selected_bg_color)
+## 	bg[ACTIVE] = shade(0.5, @selected_bg_color)
+## 	bg[INSENSITIVE] = @bg_color
+## 	
+## 	fg[NORMAL] = @fg_color
+## 	fg[SELECTED] = @selected_fg_color
+## 	fg[PRELIGHT] = @selected_fg_color
+## 	fg[ACTIVE] = @selected_fg_color
+## 	fg[INSENSITIVE] = @fg_color
+## }
 
 style "entry" {
 	xthickness = 3
@@ -256,25 +256,25 @@ style "hscrollbar" = "scrollbar" { }
 style "vscrollbar" = "scrollbar" { }
 
 
-style "menu" = "bright"
+style "menu"
 {
 	xthickness = 0
 	ythickness = 0
 	
-	fg[INSENSITIVE] = @fg_color
-
-	text[NORMAL] = @fg_color
-	text[PRELIGHT]	= @selected_fg_color
+## 	fg[INSENSITIVE] = @fg_color
+## 
+## 	text[NORMAL] = @fg_color
+## 	text[PRELIGHT]	= @selected_fg_color
 }
 
-style "menu-item" = "bright"
+style "menu-item"
 {
 	xthickness = 2
 	ythickness = 3
 
-	bg[PRELIGHT] = shade (.8, @selected_bg_color)
-	bg[SELECTED] = shade (.8, @selected_bg_color)
-	fg[PRELIGHT] = @selected_fg_color
+## 	bg[PRELIGHT] = shade (.8, @selected_bg_color)
+## 	bg[SELECTED] = shade (.8, @selected_bg_color)
+## 	fg[PRELIGHT] = @selected_fg_color
 
 	engine "murrine" 
     {
@@ -295,7 +295,7 @@ style "separator-menu-item" {
 	GtkWidget::separator-height = 7
 }
 
-style "menubar" = "bright"
+style "menubar"
 {
 	bg[NORMAL] = shade(0.95, @bg_color)
 }
@@ -321,23 +321,23 @@ widget_class "EShellWindow.GtkVBox.BonoboDock.BonoboDockBand.BonoboDockItem*" st
 class "GtkToolbar" style "toolbar"
 class "GtkHandleBox" style "toolbar"
 
-style "panel" = "bright" {
+style "panel" {
 	xthickness = 0
 	ythickness = 0
 
-## Default style
-#	bg[NORMAL] = "#292B2C"
-	bg[NORMAL] = @bg_color
-
-## Style 2 : darker active tab and light orange prelight tab
-	fg[PRELIGHT] = shade(1.3, @selected_fg_color)
-	bg[PRELIGHT] = @selected_bg_color
-	fg[ACTIVE] = @selected_fg_color
-	bg[ACTIVE] = @selected_bg_color
-	bg[PRELIGHT] = @selected_bg_color
-	text[NORMAL] = mix (0.7,  '#efffff', @fg_color)
-	text[PRELIGHT] = shade(1.3, @selected_fg_color)
-	text[ACTIVE] = @fg_color
+## ## Default style
+## #	bg[NORMAL] = "#292B2C"
+## 	bg[NORMAL] = @bg_color
+## 
+## ## Style 2 : darker active tab and light orange prelight tab
+## 	fg[PRELIGHT] = shade(1.3, @selected_fg_color)
+## 	bg[PRELIGHT] = @selected_bg_color
+## 	fg[ACTIVE] = @selected_fg_color
+## 	bg[ACTIVE] = @selected_bg_color
+## 	bg[PRELIGHT] = @selected_bg_color
+## 	text[NORMAL] = mix (0.7,  '#efffff', @fg_color)
+## 	text[PRELIGHT] = shade(1.3, @selected_fg_color)
+## 	text[ACTIVE] = @fg_color
 }
 
 style "panel-entry"
@@ -468,37 +468,39 @@ style "nautilus-location"
 
 widget "*.nautilus-extra-view-widget" style : highest "nautilus-location"
 
-style "text-is-fg-color-workaround" {
-	text[NORMAL] = @fg_color
-	text[PRELIGHT] = @fg_color
-	text[SELECTED] = @selected_fg_color
-	text[ACTIVE] = @fg_color
-	text[INSENSITIVE] = darker (@bg_color)
-}
+## style "text-is-fg-color-workaround" {
+## 	text[NORMAL] = @fg_color
+## 	text[PRELIGHT] = @fg_color
+## 	text[SELECTED] = @selected_fg_color
+## 	text[ACTIVE] = @fg_color
+## 	text[INSENSITIVE] = darker (@bg_color)
+## }
+## 
+## widget_class "*.<GtkComboBox>.<GtkCellView>" style "text-is-fg-color-workaround"
 
-widget_class "*.<GtkComboBox>.<GtkCellView>" style "text-is-fg-color-workaround"
+widget_class "*.<GtkComboBox>.<GtkCellView>" style "default"
 
-style "menuitem-text-is-fg-color-workaround" {
-	text[NORMAL] = "#E6E6E6"
-	text[PRELIGHT] = @selected_fg_color
-	text[SELECTED] = @selected_fg_color
-	text[ACTIVE] = @fg_color
-	text[INSENSITIVE] = darker (@bg_color)
-}
+## style "menuitem-text-is-fg-color-workaround" {
+## 	text[NORMAL] = "#E6E6E6"
+## 	text[PRELIGHT] = @selected_fg_color
+## 	text[SELECTED] = @selected_fg_color
+## 	text[ACTIVE] = @fg_color
+## 	text[INSENSITIVE] = darker (@bg_color)
+## }
 
-widget "*.gtk-combobox-popup-menu.*" style "menuitem-text-is-fg-color-workaround"
+widget "*.gtk-combobox-popup-menu.*" style "default"
 
-style "fg-is-text-color-workaround" {
-	fg[NORMAL] = @text_color
-	fg[PRELIGHT] = @text_color
-	fg[ACTIVE] = @selected_fg_color
-	fg[SELECTED] = @selected_fg_color
-	fg[INSENSITIVE] = darker (@bg_color)
-}
+## style "fg-is-text-color-workaround" {
+## 	fg[NORMAL] = @text_color
+## 	fg[PRELIGHT] = @text_color
+## 	fg[ACTIVE] = @selected_fg_color
+## 	fg[SELECTED] = @selected_fg_color
+## 	fg[INSENSITIVE] = darker (@bg_color)
+## }
 
-widget_class "*<GtkListItem>*" style "fg-is-text-color-workaround"
-widget_class "*<GtkCList>" style "fg-is-text-color-workaround"
-widget_class "*<EelEditableLabel>" style "fg-is-text-color-workaround"
+widget_class "*<GtkListItem>*" style "default"
+widget_class "*<GtkCList>" style "default"
+widget_class "*<EelEditableLabel>" style "default"
 
 style "flattoolbar" = "default" {
     
