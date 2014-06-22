@@ -1,14 +1,14 @@
 ## gtk-3
 (fg_color) 202020 -> 0c0c0c
 (text_color) 444 -> 0c0c0c
-(selected_bg_color) a9b7c4 -> 11400d
+(selected_bg_color) a9b7c4 -> 1c6203
 (selected_fg_color) 333 -> ffffff
 (tooltip_bg_color) d6dce4 -> fff9a0
 (tooltip_fg_color) 222 -> 0c0c0c
 (link_color) 4d75bf -> 3d48d9
 (menubar_bg_color) 1e1e1e -> dbdbdb
 (menubar_fg_color) -> @fg_color
-(wm_bg) 1e1e1e -> 11370e
+(wm_bg) 1e1e1e -> 11370e -> 1c0263
 
 ## gtk-3 assets
 Hue 209 deg -> 97 deg (-112 deg)
@@ -16,7 +16,7 @@ Hue 209 deg -> 97 deg (-112 deg)
 ## gtk-2
 (fg_color) 202020 -> 0c0c0c
 (text_color) 444 -> 0c0c0c
-(selected_bg_color) a9b7c4 -> 11400d
+(selected_bg_color) a9b7c4 -> 1c6203
 (selected_fg_color) 333333 -> ffffff
 (tooltip_bg_color) d6dce4 -> fff9a0
 (tooltip_fg_color) 222222 -> 0c0c0c
@@ -25,6 +25,5 @@ Hue 209 deg -> 97 deg (-112 deg)
 
 ## todo
 
-- brighter color
 - (gtk3) check/radio buttons on menu
 
