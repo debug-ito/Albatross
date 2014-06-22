@@ -3,7 +3,7 @@
 #      Inspired by Shiki-Wise by perfectska04 (Victor C.)
 # 2.x: Pasi Lallinaho <pasi@shimmerproject.org>
           
-gtk-color-scheme = "fg_color:#202020\nbg_color:#EDEDED\nbase_color:#fff\ntext_color:#444\nselected_bg_color:#A9B7C4\nselected_fg_color:#333333\ntooltip_bg_color:#D6DCE4\ntooltip_fg_color:#222222"
+gtk-color-scheme = "fg_color:#0c0c0c\nbg_color:#EDEDED\nbase_color:#fff\ntext_color:#0c0c0c\nselected_bg_color:#11400D\nselected_fg_color:#ffffff\ntooltip_bg_color:#FFF9A0\ntooltip_fg_color:#0c0c0c"
 
 gtk-icon-sizes = "gtk-button = 16,16"
 
@@ -36,7 +36,7 @@ style "default" {
 
 	GtkMenu::horizontal-padding = 0
 	GtkMenu::vertical-padding = 0
-	GtkWidget::link-color = "#4d75bf"
+	GtkWidget::link-color = "#3d48d9"
 	GtkWidget::visited-link-color = "#884dbf"
 
 	# GtkWidget::focus-padding = 0
@@ -245,7 +245,7 @@ style "radiocheck" = "default" {
 style "metacity-frame"
 {
     bg[SELECTED]  = shade(0.95, @fg_color)  # Color for active border.
-#    bg[INSENSITIVE]  = "#333333"  # Color for inactive borders.
+#    bg[INSENSITIVE]  = "#ffffff"  # Color for inactive borders.
 }
 
 style "statusbar" { }
@@ -337,7 +337,7 @@ style "panel" = "dark" {
 	bg[PRELIGHT] = "#232526"
 	fg[ACTIVE] = "#fff"
 	bg[ACTIVE] = "#0C0C0D"
-	bg[PRELIGHT] = "#444"
+	bg[PRELIGHT] = "#0c0c0c"
 	text[NORMAL] = mix (0.7,  '#efffff', @fg_color)
 	text[PRELIGHT] = shade(1.3, @selected_bg_color)
 	text[ACTIVE] = "#fff"
