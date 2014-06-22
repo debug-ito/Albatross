@@ -239,7 +239,7 @@ style "spinbutton" {
 }
 
 style "radiocheck" = "default" {
-	text[NORMAL] = @selected_fg_color
+	text[NORMAL] = @fg_color
 	text[PRELIGHT] = @selected_fg_color
 }
 
