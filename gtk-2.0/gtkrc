@@ -299,6 +299,7 @@ style "separator-menu-item" {
 style "menubar"
 {
 	bg[NORMAL] = shade(0.95, @bg_color)
+        bg[PRELIGHT] = @selected_bg_color
 }
 
 style "toolbar" = "default" 
