@@ -104,6 +104,7 @@ style "default" {
 		sliderstyle         = 0     # 0 = nothing added, 1 = handles
 		stepperstyle        = 1     # 0 = standard, 1 = integrated stepper handles, 2 = unknown
 		toolbarstyle	    = 1     # 0 = flat, 1 = glassy, 2 = gradient                
+                prelight_shade = 1.30	# select the shade level used in the scrollbar’s slider
 	}
 }
 
@@ -190,7 +191,7 @@ style "scrollbar" {
 
 style "scale" {
     bg[SELECTED] = shade (1.1, @selected_bg_color)
-	fg[PRELIGHT] = @base_color
+    fg[PRELIGHT] = @base_color
 
 	engine "murrine" 
 	{
