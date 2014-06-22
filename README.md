@@ -1,10 +1,13 @@
-# Gtk-Uguiss - Gtk2/3 theme
+# Gtk-Uguiss
 
 **This is still work in progress.**
+
+Gtk-Uguiss is a Gtk2/3 theme based on "Albatross".
 
 ## Features
 
 * Support Gtk2 and Gtk3.
+* Bright theme.
 * Improved contrast.
 * Deep green.
 * Improved grabbability of scrollbars, especially when the window is maximized.

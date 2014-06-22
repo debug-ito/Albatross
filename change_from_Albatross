@@ -25,5 +25,6 @@ Hue 209 deg -> 97 deg (-112 deg)
 
 ## todo
 
-- (gtk3) check/radio buttons on menu
+- (gtk3) check/radio buttons on menu.
+  menuitem-*-{checked,mixed}.pngの明度を下げればよさそう。
 
