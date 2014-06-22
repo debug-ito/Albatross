@@ -2,7 +2,7 @@
 
 **This is still work in progress.**
 
-Gtk theme based on Albatross.
+Gtk-Uguiss is a fork of Gtk theme "Albatross".
 
 ## Features
 
