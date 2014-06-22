@@ -244,10 +244,11 @@ style "radiocheck" = "default" {
 	text[PRELIGHT] = @selected_fg_color
 }
 
-style "metacity-frame"
-{
-    bg[SELECTED]  = shade(0.95, @fg_color)  # Color for active border.
-#    bg[INSENSITIVE]  = "#ffffff"  # Color for inactive borders.
+style "titlebar" {
+   bg[SELECTED]      = @selected_bg_color
+   fg[SELECTED]      = @selected_fg_color
+   bg[INSENSITIVE]   = darker(@bg_color)
+   fg[INSENSITIVE]   = @fg_color
 }
 
 style "statusbar" { }
@@ -402,9 +403,9 @@ class "GtkWidget" style "default"
 
 class "GtkFrame" style "wide"
 class "GtkEntry" style "entry"
-class "MetaFrames" style "metacity-frame"
+class "MetaFrames"                 style "titlebar"
 class "GtkSeparator" style "wide"
-class "GtkWindow" style "metacity-frame"
+class "GtkWindow"       style "titlebar"
 class "GtkCalendar" style "wide"
 
 class "GtkSpinButton" style "spinbutton"

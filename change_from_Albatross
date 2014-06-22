@@ -23,9 +23,8 @@ Hue 209 deg -> 97 deg (-112 deg)
 (link_color) 4d75bf -> 3d48d9
 141f25 -> 162514
 
-## todo (gtk2)
+## todo
 
-- ダークテーマを反転
-- スクロールバーの判定
-
+- brighter color
+- (gtk3) check/radio buttons on menu
 
