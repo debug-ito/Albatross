@@ -1551,6 +1551,7 @@ GtkLevelBar.vertical {
     border-width: 1px;
     border-style: solid;
     padding: 0;
+    -GtkRange-slider-width: 16;
 }
 
 .scrollbars-junction,
