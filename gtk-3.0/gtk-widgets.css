@@ -231,6 +231,7 @@ GtkAssistant .sidebar {
 }
 
 .button:hover {
+    color: @theme_selected_fg_color;
     border-color: shade(@theme_bg_color, 0.7);
     background-image: -gtk-gradient(linear, left top, left bottom,
                                      from (shade(shade(@theme_selected_bg_color, 1.31), 1.04)),
@@ -249,6 +250,7 @@ GtkAssistant .sidebar {
 }
 
 .button:active:hover {
+    color: @theme_selected_fg_color;
     border-color: shade(@theme_bg_color, 0.7);    
     background-image: -gtk-gradient(linear, left top, left bottom,
                                      from (shade(shade(@theme_selected_bg_color, 1.31), 1.04)),
@@ -473,6 +475,10 @@ GtkCalendar.highlight {
 /******************
  * combobox entry *
  ******************/
+GtkComboBox *:hover {
+    color: @theme_selected_fg_color;
+}
+
 .primary-toolbar GtkComboBox.combobox-entry .entry,
 .primary-toolbar GtkComboBox.combobox-entry .entry:active,
 .primary-toolbar GtkComboBox.combobox-entry .entry:focus,
@@ -974,6 +980,7 @@ GtkComboBox .menu {
 /* Hover-effect on play-button in ubuntu soundmenu */
 .menu:selected {
     background-color: @selected_bg_color;
+    color: @selected_fg_color;
 }
 
 .menu.button:hover,
@@ -1067,6 +1074,7 @@ GtkTreeMenu .menuitem {
     background-image: -gtk-gradient(linear, left top, left bottom,
                                      from (shade(@theme_selected_bg_color, 1.1)),
                                      to (shade(@theme_selected_bg_color, 0.9)));
+    color: @theme_selected_fg_color;
 }
 
 .menu .menuitem:active,
@@ -1350,6 +1358,7 @@ GtkLevelBar.vertical {
     border-style: solid;
     border-color: shade(@theme_selected_bg_color, 0.9);
     background-color: @theme_selected_bg_color;
+    color: @theme_selected_fg_color;
 }
 
 .level-bar.indicator-continuous.fill-block {
