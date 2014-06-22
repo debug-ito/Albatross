@@ -1594,31 +1594,31 @@ GtkLevelBar.vertical {
 .scrollbar.slider:hover,
 .scrollbar.slider.vertical:hover {
     background-image: -gtk-gradient(linear, left top, right top,
-                                     from (shade(@theme_selected_bg_color, 0.95)),
-                                     color-stop (0.50, shade(@theme_selected_bg_color, 0.99)),
-                                     to (shade(@theme_selected_bg_color, 0.95)));
+                                     from (shade(@theme_selected_bg_color, 1.30)),
+                                     color-stop (0.50, shade(@theme_selected_bg_color, 1.35)),
+                                     to (shade(@theme_selected_bg_color, 1.30)));
 }
 
 .scrollbar.slider.horizontal:hover {
     background-image: -gtk-gradient(linear, left top, left bottom,
-                                     from (shade(@theme_selected_bg_color, 0.95)),
-                                     color-stop (0.50, shade(@theme_selected_bg_color, 0.99)),
-                                     to (shade(@theme_selected_bg_color, 0.95)));
+                                     from (shade(@theme_selected_bg_color, 1.30)),
+                                     color-stop (0.50, shade(@theme_selected_bg_color, 1.35)),
+                                     to (shade(@theme_selected_bg_color, 1.30)));
 }
 
 .scrollbar.slider:active,
 .scrollbar.slider.vertical:active {
     background-image: -gtk-gradient(linear, left top, right top,
-                                     from (shade(@theme_selected_bg_color, 0.95)),
-                                     color-stop (0.50, shade(@theme_selected_bg_color, 0.99)),
-                                     to (shade(@theme_selected_bg_color, 0.95)));
+                                     from (shade(@theme_selected_bg_color, 1.30)),
+                                     color-stop (0.50, shade(@theme_selected_bg_color, 1.35)),
+                                     to (shade(@theme_selected_bg_color, 1.30)));
 }
 
 .scrollbar.slider.horizontal:active {
     background-image: -gtk-gradient(linear, left top, left bottom,
-                                     from (shade(@theme_selected_bg_color, 0.95)),
-                                     color-stop (0.50, shade(@theme_selected_bg_color, 0.99)),
-                                     to (shade(@theme_selected_bg_color, 0.95)));
+                                     from (shade(@theme_selected_bg_color, 1.30)),
+                                     color-stop (0.50, shade(@theme_selected_bg_color, 1.35)),
+                                     to (shade(@theme_selected_bg_color, 1.30)));
 }
 
 .scrollbar.slider.fine-tune:prelight:active {
