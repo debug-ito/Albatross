@@ -1,4 +1,4 @@
-gtk-3
+## gtk-3
 (fg_color) 202020 -> 0c0c0c
 (text_color) 444 -> 0c0c0c
 (selected_bg_color) a9b7c4 -> 11400d
@@ -10,8 +10,10 @@ gtk-3
 (menubar_fg_color) -> @fg_color
 (wm_bg) 1e1e1e -> 11370e
 
+## gtk-3 assets
+Hue 209 deg -> 97 deg (-112 deg)
 
-todo (gtk3)
+## todo (gtk3)
 ボタンのinset(?)
 スクロールバーの判定
 
