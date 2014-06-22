@@ -32,7 +32,7 @@
     -GtkScrollbar-has-forward-stepper: true;
     -GtkScrollbar-min-slider-length: 35;
     -GtkScrolledWindow-scrollbar-spacing: 0;
-    -GtkScrolledWindow-scrollbars-within-bevel: 1;
+    -GtkScrolledWindow-scrollbars-within-bevel: 0;
     -GtkStatusbar-shadow-type: none;
     -GtkTextView-error-underline-color: @error_color;
     -GtkToolButton-icon-spacing: 6;
