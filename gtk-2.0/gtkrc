@@ -261,7 +261,7 @@ style "menu"
 {
 	xthickness = 0
 	ythickness = 0
-	
+
 ## 	fg[INSENSITIVE] = @fg_color
 ## 
 ## 	text[NORMAL] = @fg_color
@@ -275,7 +275,7 @@ style "menu-item"
 
 ## 	bg[PRELIGHT] = shade (.8, @selected_bg_color)
 ## 	bg[SELECTED] = shade (.8, @selected_bg_color)
-## 	fg[PRELIGHT] = @selected_fg_color
+ 	fg[PRELIGHT] = @selected_fg_color
 
 	engine "murrine" 
     {
