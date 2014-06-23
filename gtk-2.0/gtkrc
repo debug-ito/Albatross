@@ -136,8 +136,8 @@ style "entry" {
 	xthickness = 3
 	ythickness = 3
 
-	bg[SELECTED] = mix (0.4, @selected_bg_color, @base_color)
-	fg[SELECTED] = @text_color
+	## bg[SELECTED] = mix (0.4, @selected_bg_color, @base_color)
+	## fg[SELECTED] = @text_color
 
 	engine "murrine" 
     {
