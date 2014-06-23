@@ -525,7 +525,7 @@ style "flattoolbar" = "default" {
 widget "MozillaGtkWidget*Toolbar*"	style "flattoolbar"
 
 ## XFCE specific rules
-widget "xfwm4-tabwin*" style "bright"
+## widget "xfwm4-tabwin*" style "bright"
 
 style "xfdesktop-icon-view" {
 #   Uncomment the line below for transparent icon backgrounds.
@@ -547,5 +547,5 @@ style "xfdesktop-icon-view" {
 widget_class "*XfdesktopIconView*" style "xfdesktop-icon-view"
 
 ## workaround for the evil GDM 2.28
-widget_class "*GdmGreeterPanel*" style "bright"
+## widget_class "*GdmGreeterPanel*" style "bright"
 
