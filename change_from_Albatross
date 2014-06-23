@@ -1,6 +1,6 @@
 ## gtk-3
 (fg_color) 202020 -> 0c0c0c
-(bg_color) ededed -> eeeeee
+(bg_color) ededed -> eeeeec
 (text_color) 444 -> 0c0c0c
 (selected_bg_color) a9b7c4 -> 1c6203
 (selected_fg_color) 333 -> ffffff
@@ -16,7 +16,7 @@ Hue 209 deg -> 97 deg (-112 deg)
 
 ## gtk-2
 (fg_color) 202020 -> 0c0c0c
-(bg_color) ededed -> eeeeee
+(bg_color) ededed -> eeeeec
 (text_color) 444 -> 0c0c0c
 (selected_bg_color) a9b7c4 -> 1c6203
 (selected_fg_color) 333333 -> ffffff

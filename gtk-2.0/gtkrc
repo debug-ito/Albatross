@@ -3,7 +3,7 @@
 #      Inspired by Shiki-Wise by perfectska04 (Victor C.)
 # 2.x: Pasi Lallinaho <pasi@shimmerproject.org>
           
-gtk-color-scheme = "fg_color:#0c0c0c\nbg_color:#EEEEEE\nbase_color:#fff\ntext_color:#0c0c0c\nselected_bg_color:#1C6203\nselected_fg_color:#ffffff\ntooltip_bg_color:#FFF9A0\ntooltip_fg_color:#0c0c0c"
+gtk-color-scheme = "fg_color:#0c0c0c\nbg_color:#EEEEEC\nbase_color:#fff\ntext_color:#0c0c0c\nselected_bg_color:#1C6203\nselected_fg_color:#ffffff\ntooltip_bg_color:#FFF9A0\ntooltip_fg_color:#0c0c0c"
 
 gtk-icon-sizes = "gtk-button = 16,16"
 
