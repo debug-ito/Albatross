@@ -1,7 +1,8 @@
-# Albatross Desktop Theme
+# Gtk-Uguiss Desktop Theme
 # 1.x: James Schriver <jws141@gmail.com>, Steve Dodier <sidnioulz@gmail.com>
 #      Inspired by Shiki-Wise by perfectska04 (Victor C.)
 # 2.x: Pasi Lallinaho <pasi@shimmerproject.org>
+# Modified by Toshio Ito <debug.ito@gmail.com>
           
 gtk-color-scheme = "fg_color:#0c0c0c\nbg_color:#EEEEEC\nbase_color:#fff\ntext_color:#0c0c0c\nselected_bg_color:#1C6203\nselected_fg_color:#ffffff\ntooltip_bg_color:#FFF9A0\ntooltip_fg_color:#0c0c0c"
 

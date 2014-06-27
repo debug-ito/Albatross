@@ -2,15 +2,16 @@
 
 **This is still work in progress.**
 
-Gtk-Uguiss is a Gtk2/3 theme based on "Albatross".
+Gtk-Uguiss is a Gtk2/3 and xfwm4 theme based on "Albatross" and "Default-4.6".
 
 ## Features
 
-* Support Gtk2 and Gtk3.
+* Support Gtk2, Gtk3, xfwm4.
 * Bright theme.
 * Improved contrast.
 * Deep green.
 * Improved grabbability of scrollbars, especially when the window is maximized.
+* xfwm4 color scheme can be set by Gtk2 setting.
 
 
 ## Prerequisites
@@ -21,7 +22,7 @@ In Ubuntu, this is provided as `gtk2-engines-murrine` package.
 
 ## Albatross
 
-Gtk-Uguiss is a fork of Albatross theme.
+Gtk part of Gtk-Uguiss is a fork of Albatross theme.
 
 * http://shimmerproject.org/projects/albatross/
 * https://github.com/shimmerproject/Albatross
@@ -36,6 +37,15 @@ Other contributors of Albatross are:
 
 * Satyajit Sahoo
 * Simon Steinbeiß
+
+
+## Default-4.6
+
+xfwm4 part of Gtk-Uguiss is a fork of Default-4.6 theme.
+
+Default-4.6 theme is created by Olivier Fourdan, and released under GNU GPL.
+
+In Ubuntu, Default-4.6 theme is included in `xfwm4-themes` package.
 
 ## Uguiss?
 
