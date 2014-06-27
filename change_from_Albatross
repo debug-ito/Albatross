@@ -29,8 +29,7 @@ Hue 209 deg -> 97 deg (-112 deg)
 
 - (gtk3) check/radio buttons on menu.
   menuitem-*-{checked,mixed}.pngの明度を下げればよさそう。
-- メニューバー背景はもうちょい明るい方がいいかも。
-- keysnailのprompt menuの選択の色はもっと濃いほうがいい
+- メニューにボーダーほしい
 
 - GNOME-lookあたりに上げるか？
 
