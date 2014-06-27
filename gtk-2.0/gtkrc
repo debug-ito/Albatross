@@ -245,14 +245,10 @@ style "radiocheck" = "default" {
 }
 
 style "titlebar" {
-   bg[SELECTED]      = "#ff0000"
-   fg[SELECTED]      = "#00ff00"
-   bg[INSENSITIVE]   = "#0000ff"
-   fg[INSENSITIVE]   = "#ffff00"
-##    bg[SELECTED]      = @selected_bg_color
-##    fg[SELECTED]      = @selected_fg_color
-##    bg[INSENSITIVE]   = darker(@selected_bg_color)
-##    fg[INSENSITIVE]   = @bg_color
+    bg[SELECTED]      = @selected_bg_color
+    fg[SELECTED]      = @selected_fg_color
+    bg[INSENSITIVE]   = darker(@bg_color)
+    fg[INSENSITIVE]   = @bg_color
 }
 
 style "statusbar" { }
