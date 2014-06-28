@@ -54,6 +54,10 @@ Uguiss is known for its beautiful voice, which is often heard in spring in Japan
 
 In addition, [UGUISS](http://ja.wikipedia.org/wiki/UGUISS) is a Japanese rock band (I'm not familiar with them, though).
 
+## Repository
+
+https://github.com/debug-ito/Gtk-Uguiss
+
 ## Author
 
 Toshio Ito

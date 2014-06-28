@@ -29,8 +29,8 @@ Hue 209 deg -> 97 deg (-112 deg)
 
 - (gtk3) check/radio buttons on menu.
   menuitem-*-{checked,mixed}.pngの明度を下げればよさそう。
-- メニューにボーダーほしい
-- ライセンスまわり。
+- (gtk3) プログレスバーはもっと深い色のほうがよくね？
+- (gtk3) infoやwarningメッセージの色をgtk2を揃える。
 
 - GNOME-lookあたりに上げるか？
 
