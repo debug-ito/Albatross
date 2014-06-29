@@ -24,13 +24,13 @@
 
 /* misc colors used by gtk+ */
 @define-color info_fg_color @fg_color;
-@define-color info_bg_color #f2ffed;
+@define-color info_bg_color #ffffc9;
 @define-color warning_fg_color @fg_color;
-@define-color warning_bg_color #ffc879;
-@define-color question_fg_color @info_fg_color;
-@define-color question_bg_color @info_bg_color;
+@define-color warning_bg_color #fdb244;
+@define-color question_fg_color @fg_color;
+@define-color question_bg_color #8cafd6;
 @define-color error_fg_color @fg_color;
-@define-color error_bg_color #ff9191;
+@define-color error_bg_color #f23c3c;
 @define-color link_color #3d48d9;
 @define-color visited_link_color #884dbf;
 @define-color success_color #4e9a06;
