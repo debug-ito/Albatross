@@ -1098,12 +1098,14 @@ GtkTreeMenu .menuitem {
     border-style: none;
     background-color: transparent;
     background-image: none;
+    box-shadow: none;
 }
 
 .menuitem.check:active,
 .menuitem.radio:active {
     border-style: none;
     background-color: transparent;
+    box-shadow: none;
 }
 
 .menuitem GtkCalendar:inconsistent {

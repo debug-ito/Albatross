@@ -27,8 +27,6 @@
 
 ## todo
 
-- (gtk3) check/radio buttons on menu.
-  menuitem-*-{checked,mixed}.pngの明度を下げればよさそう。
   
 - (gtk3) infoやwarningメッセージの色をgtk2を揃える。
 
