@@ -29,10 +29,6 @@
 
 - (gtk3) check/radio buttons on menu.
   menuitem-*-{checked,mixed}.pngの明度を下げればよさそう。
-- (gtk3) プログレスバーはもっと深い色のほうがよくね？
-  てか、まず全体的に彩度を上げておくか。
-
-  saturation 13 -> 74
   
 - (gtk3) infoやwarningメッセージの色をgtk2を揃える。
 
