@@ -25,10 +25,3 @@
 (link_color) 4d75bf -> 3d48d9
 141f25 -> 162514
 
-## todo
-
-- (gtk3) infoやwarningメッセージの色をgtk2を揃える。
-- (gtk3) progressbarの色はやっぱりgtk2と揃える。
-
-- GNOME-lookあたりに上げるか？
-
