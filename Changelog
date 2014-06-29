@@ -1,0 +1,11 @@
+
+Uguiss-1.01    2014-06-29
+               [gtk-2, gtk-3]
+               - Add handle grip to scrollbars.
+               [gtk-3]
+               - Thicker resize grip for panes.
+               - Fix scroll bar style for "fine-tune" (or "zoom") mode.
+
+Uguiss-1.00    2014-06-29
+               - first release
+
