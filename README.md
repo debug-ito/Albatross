@@ -1,6 +1,6 @@
 # Gtk-Uguiss
 
-**This is still work in progress.**
+<p><a href="https://github.com/debug-ito/Gtk-Uguiss/blob/master/examples/gtk3-widgets.png"><img src="https://raw.githubusercontent.com/debug-ito/Gtk-Uguiss/master/examples/gtk3-widgets.png" style="width:600px" /></a></p>
 
 Gtk-Uguiss is a Gtk2/3 and xfwm4 theme based on "Albatross" and "Default-4.6".
 
@@ -52,7 +52,7 @@ In Ubuntu, Default-4.6 theme is included in `xfwm4-themes` package.
 "Uguiss" is the Japanese name for a tiny green bird.
 Uguiss is known for its beautiful voice, which is often heard in spring in Japanese towns and villages.
 
-In addition, [UGUISS](http://ja.wikipedia.org/wiki/UGUISS) is a Japanese rock band (I'm not familiar with them, though).
+And [UGUISS](http://ja.wikipedia.org/wiki/UGUISS) is a Japanese rock band (I'm not familiar with them, though).
 
 ## Repository
 
