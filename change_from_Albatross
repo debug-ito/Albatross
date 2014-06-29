@@ -12,8 +12,7 @@
 (wm_bg) 1e1e1e -> 11370e -> 1c0263
 
 ## gtk-3 assets
-Hue 209 deg -> 97 deg (-112 deg)
-Saturation -modulate 100,161,100
+(change by convert commands)
 
 ## gtk-2
 (fg_color) 202020 -> 0c0c0c
