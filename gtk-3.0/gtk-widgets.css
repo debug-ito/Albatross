@@ -1318,11 +1318,33 @@ GtkProgressBar {
     border-radius: 0;
     border-style: solid;
     border-color: shade(@theme_selected_bg_color, 0.8);
-    /* background image defined in assets */
     color: @theme_selected_fg_color;
+    
+    /* background-image borrowed from clearlooks-phenix */
+    background-color: @theme_selected_bg_color;
+    background-image: linear-gradient(to bottom,
+                                      alpha (#ffffff, 0.05),
+                                      alpha (#ffffff, 0.05) 50%,
+                                      alpha (#ffffff, 0.0) 50%,
+                                      alpha (#ffffff, 0.0)),
+                      repeating-linear-gradient(135deg,
+                                                shade(@theme_selected_bg_color, 0.90),
+                                                shade(@theme_selected_bg_color, 0.90) 16px,
+                                                shade(@theme_selected_bg_color, 0.85) 16px,
+                                                shade(@theme_selected_bg_color, 0.85) 32px);
 }
 
 .progressbar.vertical {
+    background-image: linear-gradient(to right,
+                                      alpha (#ffffff, 0.05),
+                                      alpha (#ffffff, 0.05) 50%,
+                                      alpha (#ffffff, 0.0) 50%,
+                                      alpha (#ffffff, 0.0)),
+                      repeating-linear-gradient(45deg,
+                                                shade(@theme_selected_bg_color, 0.90),
+                                                shade(@theme_selected_bg_color, 0.90) 16px,
+                                                shade(@theme_selected_bg_color, 0.85) 16px,
+                                                shade(@theme_selected_bg_color, 0.85) 32px);
 }
 
 .trough,
