@@ -47,6 +47,15 @@ Default-4.6 theme is created by Olivier Fourdan, and released under GNU GPL.
 
 In Ubuntu, Default-4.6 theme is included in `xfwm4-themes` package.
 
+## Clearlooks-Phenix
+
+Gtk-Uguiss borrows some settings from Clearlooks-Phenix theme.
+
+* http://www.jpfleury.net/en/software/clearlooks-phenix.php
+
+Clearlooks-Phenix is created by Jean-Philippe Fleury, and licensed under GNU GPLv3 or later.
+
+
 ## Uguiss?
 
 "Uguiss" is the Japanese name for a tiny green bird.
@@ -64,5 +73,5 @@ Toshio Ito
 
 ## License
 
-Same as Albatross, that is, CC BY-SA 3.0 and GPLv2.
+GNU GPLv3 or later.
 
