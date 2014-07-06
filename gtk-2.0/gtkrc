@@ -263,6 +263,8 @@ style "menu-item"
 	ythickness = 3
 
  	fg[PRELIGHT] = @selected_fg_color
+        text[ACTIVE] = @fg_color
+        base[ACTIVE] = mix(0.90, @bg_color, @selected_bg_color)
 
 	engine "murrine" 
     {
