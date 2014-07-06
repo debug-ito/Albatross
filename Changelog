@@ -1,4 +1,15 @@
 
+Uguiss-1.02    2014-07-06
+               [gtk-3]
+               - Now progressbars are drawn by pure CSS.
+                 It can now adapt to different sizes of bars.
+               [gtk-2]
+               - Fix the bug in which check/radio in menuitems were not visible
+                 in libreoffice.
+               [license]
+               - Now Uguiss is under GPLv3 because of the code borrowed from
+                 Clearlooks-Phenix.
+
 Uguiss-1.01    2014-06-29
                [gtk-2, gtk-3]
                - Add handle grip to scrollbars.
