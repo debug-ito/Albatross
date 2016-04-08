@@ -90,6 +90,11 @@
     -gtk-icon-source: url("assets/radio-mixed-insensitive.png");
 }
 
+.menuitem.check,
+.menuitem.check:insensitive {
+    -gtk-icon-source: none;
+}
+
 .menuitem.check:active,
 .menuitem.check:checked {
     background-image: url("assets/menuitem-checkbox-checked.png");
@@ -124,6 +129,11 @@
 .menuitem.radio:inconsistent:insensitive {
     background-image: url("assets/menuitem-checkbox-mixed-insensitive.png");
     -gtk-icon-source: url("assets/menuitem-checkbox-mixed-insensitive.png");
+}
+
+.menuitem.radio,
+.menuitem.radio:insensitive {
+    -gtk-icon-source: none;
 }
 
 .menuitem.radio:active,
