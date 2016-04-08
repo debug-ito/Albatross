@@ -32,7 +32,8 @@ foreach my $shape ('checked', 'mixed') {
             $data =~ s/stroke:#000000;/stroke:$out_color;/;
             return $data;
         });
-        system('inkscape', "--export-png=$out_png", "--export-area-page", "--export-width=16", "--export-height=16", $TEMP_SVG);
+        my $size = 16;
+        system('inkscape', "--export-png=$out_png", "--export-area-page", "--export-width=$size", "--export-height=$size", $TEMP_SVG);
     }
 }
 unlink($TEMP_SVG);
