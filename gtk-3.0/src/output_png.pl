@@ -22,14 +22,15 @@ my %color_for = (
 
 my $TEMP_SVG = "temp.svg";
 
-foreach my $shape ('checked', 'mixed') {
+foreach my $shape ('checkbox-checked', 'checkbox-mixed', 'radio-checked') {
+    my $in_svg = "menuitem-$shape.svg";
     foreach my $occasion (keys %color_for) {
-        my $in_svg = "menuitem-$shape.svg";
-        my $out_png = "menuitem-checkbox-$shape$occasion.png";
+        my $out_png = "menuitem-$shape$occasion.png";
         my $out_color = $color_for{$occasion};
         convert_svg($in_svg, $TEMP_SVG, sub {
             my ($data) = @_;
             $data =~ s/stroke:#000000;/stroke:$out_color;/;
+            $data =~ s/fill:#000000;/fill:$out_color;/;
             return $data;
         });
         my $size = 16;
