@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="menuitem-checks.svg">
+   sodipodi:docname="menuitem-checked.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -26,10 +26,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="30.470993"
+     inkscape:cx="-27.612778"
      inkscape:cy="47.905287"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1360"
      inkscape:window-height="722"
@@ -52,35 +52,6 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <g
-     inkscape:label="frame"
-     inkscape:groupmode="layer"
-     id="layer1"
-     style="display:none"
-     transform="translate(-156.48481,-130.27558)">
-    <rect
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect3336"
-       width="118.57143"
-       height="118.57143"
-       x="168.57143"
-       y="142.3622"
-       rx="9.2857141"
-       ry="9.2857141" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer3"
-     inkscape:label="inconsistent"
-     style="display:inline"
-     transform="translate(-156.48481,-130.27558)">
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 186.60713,201.64791 82.50001,0"
-       id="path4142"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-  </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
