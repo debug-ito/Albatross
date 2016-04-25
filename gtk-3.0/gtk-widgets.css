@@ -1318,7 +1318,6 @@ GtkProgressBar {
     border-radius: 0;
     border-style: solid;
     border-color: shade(@theme_selected_bg_color, 0.8);
-    color: @theme_selected_fg_color;
     
     /* background-image borrowed from clearlooks-phenix */
     background-color: @theme_selected_bg_color;
@@ -1332,6 +1331,13 @@ GtkProgressBar {
                                                 shade(@theme_selected_bg_color, 0.90) 16px,
                                                 shade(@theme_selected_bg_color, 0.85) 16px,
                                                 shade(@theme_selected_bg_color, 0.85) 32px);
+}
+
+.progressbar row,
+.progressbar row:hover,
+.progressbar row:selected,
+.progressbar row:selected:focus {
+    color: @theme_selected_fg_color;
 }
 
 .progressbar.vertical {
