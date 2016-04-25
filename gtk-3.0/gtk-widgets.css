@@ -370,10 +370,11 @@ column-header .button:active:hover:focus,
 column-header .button:checked:hover:focus {
     border-color: shade(@theme_base_color, 0.9);
     border-bottom-color: shade(@theme_base_color, 0.8);
+    color: @theme_selected_fg_color;
     background-image: -gtk-gradient(linear, left top, left bottom,
-                                     from (shade(shade(@theme_bg_color, 1.09), 1.18)),
-                                     color-stop (0.50, shade(shade(@theme_bg_color, 1.01), 1.18)),
-                                     to (shade(@theme_bg_color, 0.91)));
+                                     from (shade(shade(@theme_selected_bg_color, 1.09), 1.18)),
+                                     color-stop (0.50, shade(shade(@theme_selected_bg_color, 1.01), 1.18)),
+                                     to (shade(@theme_selected_bg_color, 0.91)));
 }
 
 column-header:last-child .button {
