@@ -1819,6 +1819,8 @@ GtkComboBox .separator {
 .sidebar GtkScrolledWindow {
     background-color: @theme_bg_color;
     color: mix(@theme_fg_color, @theme_bg_color, 0.1);
+    /* Don't use symbolic icons in the sidebar */
+    -gtk-icon-style: regular;
 }
 
 .sidebar .frame {
