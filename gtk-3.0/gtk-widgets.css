@@ -1823,6 +1823,39 @@ GtkComboBox .separator {
     -gtk-icon-style: regular;
 }
 
+.sidebar row:selected,
+.sidebar row:selected:hover,
+.sidebar row:selected:focus,
+.sidebar .view row:selected,
+.sidebar .view row:selected:hover,
+.sidebar .view row:selected:focus,
+.sidebar-row:selected,
+.sidebar-row:selected:hover,
+.sidebar-row:selected:focus {
+    background-image: linear-gradient(to bottom,
+                                      @theme_selected_bg_color,
+                                      @theme_selected_bg_color 50%,
+                                      shade(@theme_selected_bg_color, 0.8)
+                                      );
+    color: @theme_selected_fg_color;
+}
+
+.sidebar row:prelight,
+.sidebar .view row:prelight,
+.sidebar-row:prelight {
+    background-image: linear-gradient(to bottom,
+                                      mix(@theme_bg_color, @theme_selected_bg_color, 0.4),
+                                      mix(@theme_bg_color, @theme_selected_bg_color, 0.4) 50%,
+                                      shade(mix(@theme_bg_color, @theme_selected_bg_color, 0.4), 0.8)
+                                      );
+    color: @theme_fg_color;
+}
+
+
+.sidebar-row .sidebar-label {
+    padding-left: 3px;
+}
+
 .sidebar .frame {
     border-width: 0;
 }
