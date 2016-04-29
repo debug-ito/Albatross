@@ -1736,9 +1736,22 @@ OsScrollbar:insensitive {
 /**************
  * undershoot *
  **************/
-.undershoot {
+.undershoot.top {
     background: none;
 }
+
+.undershoot.right {
+    background: none;
+}
+
+.undershoot.bottom {
+    background: none;
+}
+
+.undershoot.left {
+    background: none;
+}
+
 
 /*************
  * separator *
