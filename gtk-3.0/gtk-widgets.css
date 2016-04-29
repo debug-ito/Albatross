@@ -3679,7 +3679,7 @@ GtkBubbleWindow .toolbar {
  * CSD *
  *******/
 .titlebar {
-    border-radius: 2px 2px 0 0;
+    border-radius: 0;
     background-image: none;
     background-color: @toolbar_bg_color;
     text-shadow: none;
@@ -3762,12 +3762,24 @@ GtkBubbleWindow .toolbar {
 }
 
 .window-frame {
-    border: solid 1px shade(@toolbar_bg_color, 0.5);
-    border-radius: 0;
-    box-shadow: none;
+    border-radius: 2px;
+
+    /* I don't need literal shadow for windows. However, we cannot make a
+       solid frame with `border` and `background-color` props (like we
+       do in .solid-csd). As a workaround, I emulated the frame with
+       `box-shadow` property with non-alpha-blended shadows. */
+    box-shadow: 0 0 0 5px shade(@toolbar_bg_color, 0.5),
+                0 0 0 4px @toolbar_bg_color;
 
     /* this is used for the resize cursor area */
     margin: 4px;
+}
+
+/* window frame decoration specifically for non-composite mode */
+.window-frame.solid-csd {
+    border-radius: 0; /* in non-composite mode, it make the rounded edges transparent. */
+    border: solid 1px shade(@toolbar_bg_color, 0.5);
+    box-shadow: none;
     background-color: @toolbar_bg_color;
 }
 
@@ -3783,3 +3795,4 @@ GtkBubbleWindow .toolbar {
 .window-frame.csd.tooltip {
     border-radius: 2px;
 }
+
