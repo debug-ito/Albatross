@@ -3717,7 +3717,7 @@ GtkBubbleWindow .toolbar {
 
 .titlebar .titlebutton {
     border-style: none;
-    padding: 6px;
+    padding: 8px 6px 8px 6px;
     background: none;
     box-shadow: none;
     color: @toolbar_fg_color;
@@ -3736,8 +3736,8 @@ GtkBubbleWindow .toolbar {
     background: none;
     color: mix(@toolbar_fg_color, @toolbar_bg_color, 0.7);
     box-shadow: none;
-    padding-top: 7px;
-    padding-bottom: 5px;
+    padding-top: 9px;
+    padding-bottom: 7px;
 }
 
 /*
