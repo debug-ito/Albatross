@@ -11,6 +11,7 @@ Gtk-Uguiss is a Gtk2/3 and xfwm4 theme based on "Albatross" and "Default-4.6".
 * Improved contrast.
 * Deep green.
 * Improved grabbability of scrollbars, especially when the window is maximized.
+* Improved clickability of window buttons, especially when the window is maximized.
 * xfwm4 color scheme can be set by Gtk2 setting.
 
 
@@ -54,6 +55,15 @@ Gtk-Uguiss borrows some settings from Clearlooks-Phenix theme.
 * http://www.jpfleury.net/en/software/clearlooks-phenix.php
 
 Clearlooks-Phenix is created by Jean-Philippe Fleury, and licensed under GNU GPLv3 or later.
+
+## Greybird
+
+Gtk-Uguiss borrows some settings from Greybird theme, too.
+
+* http://shimmerproject.org/our-projects/greybird/
+
+Greybird is created by Simon Steinbeiß, Satyajit Sahoo, Pasi Lallinaho,
+and is dual-licensed as GPLv2 or later and CC-BY-SA 3.0 or later.
 
 
 ## Uguiss?
