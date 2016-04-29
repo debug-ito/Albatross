@@ -3683,6 +3683,7 @@ GtkBubbleWindow .toolbar {
     background-image: none;
     background-color: @toolbar_bg_color;
     text-shadow: none;
+    color: @toolbar_fg_color;
 }
 
 .tiled .titlebar {
@@ -3710,14 +3711,15 @@ GtkBubbleWindow .toolbar {
     background-image: none;
     background-color: @toolbar_bg_color;
     text-shadow: none;
+    color: mix(@toolbar_fg_color, @toolbar_bg_color, 0.8);
 }
 
 .titlebar .titlebutton {
     border-style: none;
     padding: 4px;
     background: none;
-    color: @toolbar_fg_color;
     box-shadow: none;
+    color: @toolbar_fg_color;
 }
 
 .titlebar .titlebutton:hover {
@@ -3755,7 +3757,7 @@ GtkBubbleWindow .toolbar {
 
 .titlebar .titlebutton:backdrop {
     background-image: none;
-    color: mix(@toolbar_fg_color, @toolbar_bg_color, 0.5);
+    color: mix(@toolbar_fg_color, @toolbar_bg_color, 0.8);
 }
 
 .window-frame {
