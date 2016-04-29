@@ -3716,13 +3716,13 @@ GtkBubbleWindow .toolbar {
     border-style: none;
     padding: 4px;
     background: none;
-    color: mix(@toolbar_fg_color, @toolbar_bg_color, 0.3);
+    color: @toolbar_fg_color;
     box-shadow: none;
 }
 
 .titlebar .titlebutton:hover {
     background: none;
-    color: mix(@toolbar_fg_color, @toolbar_bg_color, 0.2);
+    color: mix(@toolbar_fg_color, @toolbar_bg_color, 0.7);
     box-shadow: none;
 }
 
@@ -3731,8 +3731,10 @@ GtkBubbleWindow .toolbar {
 .titlebar .titlebutton:active:hover,
 .titlebar .titlebutton:checked:hover {
     background: none;
-    color: mix(@toolbar_fg_color, @toolbar_bg_color, 0.1);
+    color: mix(@toolbar_fg_color, @toolbar_bg_color, 0.7);
     box-shadow: none;
+    padding-top: 5px;
+    padding-bottom: 3px;
 }
 
 /*
