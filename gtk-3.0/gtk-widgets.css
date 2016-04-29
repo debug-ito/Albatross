@@ -2423,27 +2423,22 @@ GtkColorButton.button {
 }
 
 .inline-toolbar.toolbar .button {
-    padding: 1px;
+    padding: 4px;
     border-width: 1px 0 1px 1px;
     border-style: solid;
     border-color: shade(@theme_bg_color, 0.8);
     border-radius: 0;
-    background-color: shade(@theme_bg_color, 1.08);
-    background-image: none;
     color: @theme_fg_color;
 }
 
 .inline-toolbar.toolbar .button:hover {
     border-color: shade(@theme_bg_color, 0.7);
-    background-color: shade(@theme_bg_color, 1.10);
-    background-image: none;
+    color: @theme_selected_fg_color;
 }
 
 .inline-toolbar.toolbar .button:active,
 .inline-toolbar.toolbar .button:checked {
     border-color: shade(@theme_bg_color, 0.8);
-    background-color: shade(@theme_bg_color, 0.95);
-    background-image: none;
 }
 
 .inline-toolbar.toolbar .button:active:hover,
@@ -2463,8 +2458,6 @@ GtkColorButton.button {
 .inline-toolbar.toolbar .button *:insensitive,
 .inline-toolbar.toolbar GtkToolButton .button:insensitive {
     border-color: shade(@theme_bg_color, 0.85);
-    background-color: shade(@theme_bg_color, 0.9);
-    background-image: none;
 }
 
 /******************
