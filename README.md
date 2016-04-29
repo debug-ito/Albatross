@@ -1,6 +1,6 @@
 # Gtk-Uguiss
 
-<p><a href="https://github.com/debug-ito/Gtk-Uguiss/blob/master/examples/gtk3-widgets.png"><img src="https://raw.githubusercontent.com/debug-ito/Gtk-Uguiss/master/examples/gtk3-widgets.png" style="width:600px" /></a></p>
+<p><a href="https://github.com/debug-ito/Gtk-Uguiss/blob/master/examples/gtk3-widgets.xenial.png"><img src="https://raw.githubusercontent.com/debug-ito/Gtk-Uguiss/master/examples/gtk3-widgets.xenial.png" style="width:600px" /></a></p>
 
 Gtk-Uguiss is a Gtk2/3 and xfwm4 theme based on "Albatross" and "Default-4.6".
 
