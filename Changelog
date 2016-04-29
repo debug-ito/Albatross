@@ -1,4 +1,31 @@
 
+Uguiss-2.00    2016-04-29
+               Version 2.00 is designed for Xubuntu 16.04 (Xenial Xerus).
+               
+               [gtk-2]
+               - Fix color settings for column-header (or sometimes called treeview-header).
+               - Set styles for "tabwin", the window switcher for Xfce4.
+                 In Uguiss, the key cursor is highlighted over the mouse cursor.
+                 Otherwise, it would be so confusing.
+               [gtk-3]
+               - Fix assets for checkboxes and radio buttons.
+               - Fix .overshoot style (an effect you get when you try to scroll further than the limit)
+               - Fix .undershoot style (an effect you get when the window is positioned in the middle
+                 of the entire document)
+               - Fix .spinner style.
+               - Fix .progressbar style. Its color setting disturbs the label.
+               - Fix column-header style.
+               - Improve .sidebar style.
+               - Fix .xfce4-panel style.
+                 -gtk-gradient is replaced with linear-gradient because the former somehow hogs CPU.
+               - Fix .toolbar and .inline-toolbar style.
+               - Improve .titlebar style.
+                 Now (hopefully) the title buttons are clickable at edges of the screen when the window
+                 is maximized.
+               - Fix .window-frame style.
+                 It has no shadow but has a solid frame, in both composite and non-composite modes.
+
+
 Uguiss-1.02    2014-07-06
                [gtk-3]
                - Now progressbars are drawn by pure CSS.
@@ -18,5 +45,6 @@ Uguiss-1.01    2014-06-29
                - Fix scroll bar style for "fine-tune" (or "zoom") mode.
 
 Uguiss-1.00    2014-06-29
+               Version 1.00 is designed for Xubuntu 14.04 (Trusty Tahr)
                - first release
 
