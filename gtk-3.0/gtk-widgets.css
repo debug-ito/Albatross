@@ -3790,9 +3790,11 @@ GtkBubbleWindow .toolbar {
 .window-frame.csd.popup {
     border-style: none;
     border-radius: 0;
+    box-shadow: none;
 }
 
 .window-frame.csd.tooltip {
     border-radius: 2px;
+    box-shadow: none;
 }
 
