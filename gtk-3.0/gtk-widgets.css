@@ -3736,8 +3736,8 @@ GtkBubbleWindow .toolbar {
     background: none;
     color: mix(@toolbar_fg_color, @toolbar_bg_color, 0.7);
     box-shadow: none;
-    padding-top: 5px;
-    padding-bottom: 3px;
+    padding-top: 7px;
+    padding-bottom: 5px;
 }
 
 /*
